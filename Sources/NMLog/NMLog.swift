@@ -10,7 +10,7 @@ public struct NMLog  {
         } else {
             message += "[\(msg)]"
         }
-        print(msg)
+        print(message)
         
     }
     
@@ -21,7 +21,7 @@ public struct NMLog  {
         } else {
             message += "[\(msg)]"
         }
-        print(msg)
+        print(message)
     }
     
     static public func warning(tag: String? = nil, msg: String, file: String = #file, line: UInt = #line, function: String = #function) {
@@ -31,7 +31,7 @@ public struct NMLog  {
         } else {
             message += "[\(msg)]"
         }
-        print(msg)
+        print(message)
     }
     
     static public func error(tag: String? = nil, msg: String, file: String = #file, line: UInt = #line, function: String = #function) {
@@ -41,7 +41,7 @@ public struct NMLog  {
         } else {
             message += "[\(msg)]"
         }
-        print(msg)
+        print(message)
     }
     
 }
